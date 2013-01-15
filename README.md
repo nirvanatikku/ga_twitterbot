@@ -1,5 +1,4 @@
-# TwitterBot via AppEngine #
-## Content Driven by Google Analytics ##
+# TwitterBot via AppEngine (Driven by Google Analytics) #
 
 I've provided all the necessary libraries in this project. Ideally I would have set it up with submodules, but I wanted to provide a guaranteed solution for you, the developer, to get up and running as soon as possible.
 
