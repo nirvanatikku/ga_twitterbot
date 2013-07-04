@@ -91,7 +91,7 @@ try:
 	##
 	auth = tweepy.OAuthHandler(tw_consumer_key, tw_consumer_secret)
 	auth.set_access_token(tw_access_token, tw_access_token_secret)
-	api = tweepy.API(auth)
+	api = tweepy.API(auth_handler=auth, api_root='/1.1')
 	logger.debug(">> twitter/tweepy init'd")
 
 	logger.info("service init'd!")
